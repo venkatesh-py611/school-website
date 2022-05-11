@@ -397,6 +397,7 @@
     color: white;
     background-color: #100260 ;
     margin-bottom: 25px;
+    border: 2px solid #0DD3D6;
 }
 .tech{
     text-align: center;
@@ -424,9 +425,9 @@
 .container10{
     display: flex;
 }
-.techer1{
+/*.techer1{
     height: 700px;
-}
+}*/
 .techer1 p{
     margin-left: 150px;
     margin-top: -60px;
@@ -456,4 +457,242 @@
     margin-top: -60px;
     font-weight: bold;
     color: #0DD3D6;
+}
+.tech2{
+    text-align: center;
+    margin-top: 90px;
+}
+.tech2 p{
+    margin-top: 30px;
+   color:#026060 ;
+}
+.tech2 h1{
+    font-weight: bold;
+    font-size: 40px;
+    color: #0DD3D6 ;
+}
+.container11{
+    display: flex;
+}
+.qu1{
+    margin-top: 40px;
+    margin-left: 100px;
+    color: #026060;
+    border: 2px solid #E5E7E9 ;
+    padding: 20px;
+    background-color: #E5E7E9 ;
+    border-radius: 6px;
+}
+.qu2{
+    margin-top: 40px;
+    margin-left: 230px;
+    color: #026060;
+    border: 2px solid #E5E7E9;
+    padding: 20px;
+    background-color: #E5E7E9 ;
+    border-radius: 6px;
+}
+.qu3{
+    margin-top: 40px;
+    margin-left: 200px;
+    color: #026060;
+    border: 2px solidE5E7E9;
+    padding: 20px;
+    background-color: #E5E7E9 ;
+    border-radius: 6px;
+}
+.fa-quote-left{
+    color:#0DD3D6 ;
+    font-size: 30px;
+}
+.container11 a{
+  text-decoration: none;
+  color:#707B7C ;
+  word-spacing: 2.7px;
+}
+.container13{
+    display: flex;
+}
+.container13 img{
+    width: 85px;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+
+}
+.Parent-photo1{
+    margin-top: 30px;
+    margin-left: 100px;
+
+}
+.Parent-photo2{
+    margin-top: 30px;
+    margin-left: 340px;
+}
+.Parent-photo3{
+    margin-top: 30px;
+    margin-left: 310px;
+}
+.Parent-photo1 p{
+    margin-left: 100px;
+    margin-bottom: -40px;
+    color:#026060 ;
+}
+.Parent-photo2 p{
+    margin-left: 100px;
+    margin-bottom: -40px;
+    color:#026060 ;
+}
+.Parent-photo3 p{
+    margin-left: 100px;
+    margin-bottom: -40px;
+    color:#026060 ;
+}
+.container14{
+    display: flex;
+    margin-top: 100px;
+    
+
+
+}
+.final{
+    background-color: #0404DA    ;
+    height: 330px;
+}
+.last1{
+  margin-left: 90px;
+}
+.last2{
+    margin-left: 130px;
+}
+.last3{
+    margin-left: 140px;
+}
+.last4{
+    margin-left: 160px;
+}
+.last1 a{
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+
+}
+.last1{
+    margin-top: 40px;
+}
+.last1 p{
+    color: white;
+    margin-top: 13px;
+    word-spacing: 3px;
+}
+.fa-twitter{
+    color: #0DD3D6;
+    border-radius: 50%;
+    border: 2px solid #0DD3D6;
+    padding: 4px;
+    margin-top: 13px;
+}
+.fa-facebook{
+    color: #0DD3D6;
+    border-radius: 50%;
+    border: 2px solid #0DD3D6;
+    padding: 4px;
+
+}
+.fa-linkedin{
+    color: #0DD3D6;
+    border-radius: 50%;
+    border: 2px solid #0DD3D6;
+    padding: 4px;
+
+}
+.fa-instagram{
+    color: #0DD3D6;
+    border-radius: 50%;
+    border: 2px solid #0DD3D6;
+    padding: 4px;
+}
+
+.last2{
+    margin-top: 40px;
+}
+.last2 h2{
+    color: #0DD3D6;
+}
+.last2 a{
+    text-decoration: none;
+    word-spacing: 2px;
+    color: white;
+}
+.fa-map-marker-alt{
+    color: #0DD3D6;
+}
+.fa-envelope{
+    color: #0DD3D6;
+}
+.fa-phone{
+    color: #0DD3D6;
+}
+.last3 {
+    margin-top: 40px;
+}
+
+.last3 h2{
+    color: #0DD3D6;
+}
+.last3 li{
+    color: white;
+    margin-top: 10px;
+    margin-left: 17px;
+}
+.last4{
+    margin-top: 40px;
+}
+.last4 h2{
+    color:#0DD3D6 ;
+}
+.last4 input{
+    margin-top: 20px;
+    width: 190px;
+    height: 25px;
+    border-radius: 5px;
+}
+.last4 button{
+    width: 195px;
+    height: 35px;
+    border-radius: 15px;
+    color: white;
+    background-color:#0DD3D6 ;
+    border: 2px solid #0DD3D6;
+    font-weight: bold;
+}
+.footer{
+    margin-top: 40px;
+    text-align: center;
+    
+
+}
+#har{
+    margin-top: 25px;
+    color: #0DD3D6;
+}
+.foo span{
+    color: white;
+
+}
+.foo p{
+    color: #0DD3D6;
+}
+.foo{
+    margin-top: -15px;
+}
+.bookleft button{
+    color: white;
+    font-weight: bold;
+    padding: 3px;
+    border-radius: 6px;
+    border: 2px solid #0DD3D6 ;
+    background-color: #0DD3D6;
+
 }
