@@ -9,6 +9,8 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 <link rel="stylesheet" type="text/css" href="style.css">
 <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" src="run.js"></script>
 	</head>
 	<body>
 	<div class="navbar">
@@ -99,19 +101,19 @@
 
 <div class="container8">
 	<div class="photo1">
-	 <img src="https://images.unsplash.com/photo-1497048679117-1a29644559e3?crop=entropy&cs=srgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTIxOTYwNTI&ixlib=rb-1.2.1&q=85">
+	 <img id="photo1" src="https://images.unsplash.com/photo-1497048679117-1a29644559e3?crop=entropy&cs=srgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTIxOTYwNTI&ixlib=rb-1.2.1&q=85">
 	 <h3>Drawing class</h2>
 	 <p>Lorem ipsum dolor sit amet, consectetur adipiscing<br> elit Nulla a tortor molestie, sodales velit ac, dictum libero.</p>
 	 <button>Join Now</button>
 	</div>
 	<div class="photo2">
-		<img src="https://images.unsplash.com/photo-1561089489-f13d5e730d72?crop=entropy&cs=srgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTIxOTYwOTE&ixlib=rb-1.2.1&q=85">
+		<img id="photo2" src="https://images.unsplash.com/photo-1561089489-f13d5e730d72?crop=entropy&cs=srgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTIxOTYwOTE&ixlib=rb-1.2.1&q=85">
 		<h3>Language Learning</h3>
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing <br>elit Nulla a tortor molestie, sodales velit ac, dictum libero</p>
 		<button>Join Now</button>
 	</div>
 	<div class="photo3">
-		<img src="https://images.unsplash.com/photo-1571260899304-425eee4c7efc?crop=entropy&cs=srgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTIxOTYxNTg&ixlib=rb-1.2.1&q=85">
+		<img id="photo3" src="https://images.unsplash.com/photo-1571260899304-425eee4c7efc?crop=entropy&cs=srgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTIxOTYxNTg&ixlib=rb-1.2.1&q=85">
 		<h3>Basic Science</h3>
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing <br>elit Nulla a tortor molestie, sodales velit ac, dictum libero</p>
 
@@ -129,16 +131,16 @@
 		<br><br>
 		<a href=""><i class="fas fa-check"></i>Lobore eos amet dolor amet diam</a>
 		<br><br>
-		<button>Book Now</button>
+		<button >Book Now</button>
 	</div>
 	<div class="bookright">
 		<h2>Book A Seat</h2>
 		<div class="uou">
-		<input type="text" name="" placeholder="Your Name"><br>
-		<input type="text" name="" placeholder="Your Email"><br>
-		<input type="text" name="" placeholder="Select A Class"><br>
+		<input type="text" id="text" name="text" placeholder="Your Name"><br>
+		<input type="text" id="mail" name="" placeholder="Your Email"><br>
+		<input type="text" id="class" name="" placeholder="Select A Class"><br>
 
-		<button>Book Now</button>
+		<button  id="fn1" >Book Now</button>
 			</div>
 		</div>
 </div>
@@ -230,11 +232,11 @@
 	</div>
 	<div class="last4">
 		<h2>Newsletter</h2>
-		<input type="text" name="" placeholder="Your Name"><br>
+		<input type="text" id="fm" placeholder="Your Name"><br>
 		
-		<input type="text" name="" placeholder="Your Email"><br>
+		<input type="text" name="" id="fm1" placeholder="Your Email"><br>
 		<br>
-		<button>Submit Now</button>
+		<button id="submit">Submit Now</button>
 
 	</div>
 	
@@ -248,4 +250,5 @@
 </div>
 </div>
 	</body>
+	
 	</html>

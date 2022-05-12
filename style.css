@@ -696,3 +696,61 @@
     background-color: #0DD3D6;
 
 }
+/*.container1 img:hover{
+    transform: rotateX(360deg);
+    transition: 3s;
+
+}*/
+.playground:hover{
+    
+    transform: scale(1.2);
+}
+.Music:hover{
+    
+    transform: scale(1.2);
+}
+.Arts:hover{
+    
+    transform: scale(1.2);
+}
+.Safe:hover{
+    
+    transform: scale(1.2);
+}
+.healthy:hover{
+    
+    transform: scale(1.2);
+}
+.edu:hover{
+    
+    transform: scale(1.2);
+}
+.techer1:hover{
+   transform: scale(1.2);
+   transition: 0.1;
+}
+.techer2:hover{
+   transform: scale(1.2);
+}
+.techer3:hover{
+   transform: scale(1.2);
+}
+.techer4:hover{
+   transform: scale(1.2);
+}
+.img2:hover{
+    transition: 3s;
+    transform: translateX(1200px);
+}
+#photo1:hover{
+    transition: 2s;
+    transform: rotatey(180deg);
+}
+#photo2:hover{
+    transition: 2s;
+    transform: rotatey(180deg);
+}
+#photo3:hover{
+    transition: 2s;
+    transform: rotatey(180deg);
+}
